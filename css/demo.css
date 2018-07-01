@@ -392,7 +392,7 @@ main::before {
   background: rgba(0, 0, 0, 0.3);
 }
 .demo-9 .content--related {
-  background: #ff7777;
+  background: #6e61e8;
 }
 
 @media screen and (max-width: 40em) {
