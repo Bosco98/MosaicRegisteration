@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Events |Apply Mosaic </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <style>
+        img {
+            width: 40%;
+            padding-top: 9%;
+        }
+    </style>
+</head>
+
+<body class="yellow lighten-5">
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <div class="navbar-fixed ">
+        <nav class="yellow darken-3">
+            <a href="#" class="brand-logo right ">
+                <img src="favicon.png" alt="" srcset=""> </a>
+            <div class="container">
+                <h5> Events </h5>
+            </div>
+        </nav>
+    </div>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='end.html';}"></iframe>
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <p> All questions are compulsory.
+                                <br> Incomplete forms will not be considered.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s10">
+
+                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdpOxc0Myh4UyjkDJdEWvwX5J9dQdN00g76pmqaSoRX5dfEJg/formResponse"
+                    method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                    <h6>
+                        Email address *
+                    </h6>
+                    <input type="email" name="emailAddress" id="">
+                    <br>
+                    <h6>
+                        Full name*
+                    </h6>
+                    <input type="text" name="entry.12506501" id="">
+
+                    <h6>
+                        Class*
+                    </h6>
+                    <input type="text" name="entry.270199918" id="">
+
+                    <br>
+                    <h6>
+                        Phone Number*
+
+                    </h6>
+                    <input type="text" name="entry.1564658446" id="">
+                    <br>
+
+                    <br>
+
+                    <h6>
+                        1) Which category of Events would you like to be a part of? </h6>
+                    <br>
+                    <textarea name="entry.241484290" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        2) Stage person or backstage person? </h6>
+                    <br>
+                    <textarea name="entry.1546594600" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        3) Rank in order of priority : Audience, OC Team, Volunteers, Judges. </h6>
+                    <br>
+                    <textarea name="entry.1254503359" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        4) Hard worker or smart worker? </h6>
+                    <br>
+                    <textarea name="entry.1735334747" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        5) How will you keep your audience entertained during your event and ensure that they have a good time?
+                    </h6>
+                    <br>
+                    <textarea name="entry.192811457" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        6) What, according to you is the most important quality a volunteer must possess?
+                    </h6>
+                    <br>
+                    <textarea name="entry.1434095738" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        7) Prior experience. </h6>
+                    <br>
+                    <textarea name="entry.472206819" id="" cols="30" rows="5"></textarea>
+                    <br>
+
+
+
+
+
+                    <br>
+                    <button type="submit" class="btn waves-effect waves-light yellow darken-2">Submit</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

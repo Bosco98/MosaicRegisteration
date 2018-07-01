@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Security |Apply Mosaic </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <style>
+        img {
+            width: 40%;
+            padding-top: 9%;
+        }
+    </style>
+</head>
+
+<body class="yellow lighten-5">
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <div class="navbar-fixed ">
+        <nav class="yellow darken-3">
+            <a href="#" class="brand-logo right ">
+                <img src="favicon.png" alt="" srcset=""> </a>
+            <div class="container">
+                <h5> Security </h5>
+            </div>
+        </nav>
+    </div>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='end.html';}"></iframe>
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <strong>
+                            <p> All questions are compulsory.
+                                <br> Incomplete forms will not be considered.</p>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s10">
+
+                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdCCL2wzVNNPUDH5Z9_JW0FsngE7Tse-hILUB6n-gEBNZBKaw/formResponse" method="post"
+                    target="hidden_iframe" onsubmit="submitted=true;">
+                    <h6>
+                        Email address *
+                    </h6>
+                    <input type="email" name="emailAddress" id="">
+                    <br>
+                    <h6>
+                        Full name*
+                    </h6>
+                    <input type="text" name="entry.1621627782" id="">
+
+                    <h6>
+                        Class*
+                    </h6>
+                    <input type="text" name="entry.35315290" id="">
+
+                    <br>
+                    <h6>
+                        Phone Number*
+
+                    </h6>
+                    <input type="text" name="entry.1086325543" id="">
+                    <br>
+
+                    <br>
+
+                    <h6>
+
+                        2.What do you think Security actually does?
+                    </h6>
+                    <br>
+                    <textarea name="entry.651868851" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+
+
+                        3.Why Security?
+
+                    </h6>
+                    <br>
+                    <textarea name="entry.1092170303" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+                        4.Why you?
+
+                    </h6>
+                    <br>
+                    <textarea name="entry.1848501557" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+
+                        5.Past experience-
+
+                    </h6>
+                    <br>
+                    <textarea name="entry.1389425847" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <h6>
+
+                        6.Give us an example of a troublesome scenario that can be caused during the event and how would you react to it!
+
+                    </h6>
+                    <br>
+                    <textarea name="entry.430036583" id="" cols="30" rows="5"></textarea>
+                    <br>
+
+                    <br>
+                    <button type="submit" class="btn waves-effect waves-light yellow darken-2">Submit</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
